@@ -81,7 +81,6 @@ function login() {
 
 function operation(){
     
-    mostfreq = 0;
     var values = parseInt(document.getElementById("val").value);
     if(values == "" || values == 0){
         alert("Please enter a number");
